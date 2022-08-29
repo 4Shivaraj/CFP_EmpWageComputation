@@ -88,3 +88,46 @@
 2022-08-29 21:45:36,702 (max_hours_days) INFO Days the employees have worked: 20 
 2022-08-29 21:45:37,772 (max_hours_days) DEBUG Employee wage for month: 1520
 2022-08-29 21:45:39,846 (max_hours_days) DEBUG Hours the employees have worked: 76 
+2022-08-29 22:04:42,248 (class_method) INFO 1
+2022-08-29 22:04:48,690 (class_method) DEBUG  daily wage of an employee 160
+2022-08-29 22:04:53,149 (class_method) INFO 1
+2022-08-29 22:04:53,659 (class_method) DEBUG  daily wage of an employee 160
+2022-08-29 22:04:54,418 (class_method) INFO 0
+2022-08-29 22:04:55,206 (class_method) DEBUG employee is absent
+2022-08-29 22:04:56,070 (class_method) INFO 1
+2022-08-29 22:04:56,625 (class_method) DEBUG  daily wage of an employee 160
+2022-08-29 22:04:58,124 (class_method) INFO 1
+2022-08-29 22:04:58,695 (class_method) DEBUG  daily wage of an employee 160
+2022-08-29 22:04:59,699 (class_method) INFO 1
+2022-08-29 22:05:00,724 (class_method) DEBUG  daily wage of an employee 160
+2022-08-29 22:05:01,606 (class_method) INFO 2
+2022-08-29 22:05:02,272 (class_method) DEBUG  daily wage of an employee 80
+2022-08-29 22:05:03,366 (class_method) INFO 1
+2022-08-29 22:05:03,973 (class_method) DEBUG  daily wage of an employee 160
+2022-08-29 22:05:04,882 (class_method) INFO 0
+2022-08-29 22:05:06,116 (class_method) DEBUG employee is absent
+2022-08-29 22:05:07,366 (class_method) INFO 1
+2022-08-29 22:05:08,113 (class_method) DEBUG  daily wage of an employee 160
+2022-08-29 22:05:09,348 (class_method) INFO 2
+2022-08-29 22:05:10,137 (class_method) DEBUG  daily wage of an employee 80
+2022-08-29 22:05:11,359 (class_method) INFO 2
+2022-08-29 22:05:12,455 (class_method) DEBUG  daily wage of an employee 80
+2022-08-29 22:05:13,723 (class_method) INFO 1
+2022-08-29 22:05:14,494 (class_method) DEBUG  daily wage of an employee 160
+2022-08-29 22:05:15,732 (class_method) INFO 2
+2022-08-29 22:05:16,505 (class_method) DEBUG  daily wage of an employee 80
+2022-08-29 22:05:17,711 (class_method) INFO 0
+2022-08-29 22:05:19,087 (class_method) DEBUG employee is absent
+2022-08-29 22:05:20,213 (class_method) INFO 0
+2022-08-29 22:05:21,387 (class_method) DEBUG employee is absent
+2022-08-29 22:05:22,518 (class_method) INFO 0
+2022-08-29 22:05:23,633 (class_method) DEBUG employee is absent
+2022-08-29 22:05:24,732 (class_method) INFO 1
+2022-08-29 22:05:25,427 (class_method) DEBUG  daily wage of an employee 160
+2022-08-29 22:05:26,553 (class_method) INFO 2
+2022-08-29 22:05:27,265 (class_method) DEBUG  daily wage of an employee 80
+2022-08-29 22:05:28,403 (class_method) INFO 2
+2022-08-29 22:05:29,376 (class_method) DEBUG  daily wage of an employee 80
+2022-08-29 22:05:30,547 (class_method) INFO Days the employees have worked: 20 
+2022-08-29 22:05:30,747 (class_method) DEBUG Employee wage for month: 1920
+2022-08-29 22:05:30,935 (class_method) DEBUG Hours the employees have worked: 96 
