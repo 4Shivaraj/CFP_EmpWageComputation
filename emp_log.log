@@ -3,3 +3,45 @@
 2022-08-29 21:08:23,422 (daily_wage) DEBUG  daily wage of an employee 160
 2022-08-29 21:13:41,951 (part_time_wage) INFO 2
 2022-08-29 21:13:46,736 (part_time_wage) DEBUG  daily wage of an employee 80
+2022-08-29 21:24:44,711 (part_time_wage) INFO 1
+2022-08-29 21:31:22,560 (monthly_wage) INFO 1
+2022-08-29 21:31:22,560 (monthly_wage) DEBUG  daily wage of an employee 160
+2022-08-29 21:31:22,560 (monthly_wage) INFO 2
+2022-08-29 21:31:22,560 (monthly_wage) DEBUG  daily wage of an employee 80
+2022-08-29 21:31:22,560 (monthly_wage) INFO 2
+2022-08-29 21:31:22,560 (monthly_wage) DEBUG  daily wage of an employee 80
+2022-08-29 21:31:22,560 (monthly_wage) INFO 2
+2022-08-29 21:31:22,560 (monthly_wage) DEBUG  daily wage of an employee 80
+2022-08-29 21:31:22,560 (monthly_wage) INFO 2
+2022-08-29 21:31:22,560 (monthly_wage) DEBUG  daily wage of an employee 80
+2022-08-29 21:31:22,560 (monthly_wage) INFO 0
+2022-08-29 21:31:22,560 (monthly_wage) DEBUG employee is absent
+2022-08-29 21:31:22,560 (monthly_wage) INFO 0
+2022-08-29 21:31:22,560 (monthly_wage) DEBUG employee is absent
+2022-08-29 21:31:22,560 (monthly_wage) INFO 2
+2022-08-29 21:31:22,560 (monthly_wage) DEBUG  daily wage of an employee 80
+2022-08-29 21:31:22,561 (monthly_wage) INFO 2
+2022-08-29 21:31:22,561 (monthly_wage) DEBUG  daily wage of an employee 80
+2022-08-29 21:31:22,561 (monthly_wage) INFO 1
+2022-08-29 21:31:22,561 (monthly_wage) DEBUG  daily wage of an employee 160
+2022-08-29 21:31:22,561 (monthly_wage) INFO 0
+2022-08-29 21:31:22,561 (monthly_wage) DEBUG employee is absent
+2022-08-29 21:31:22,561 (monthly_wage) INFO 0
+2022-08-29 21:31:22,561 (monthly_wage) DEBUG employee is absent
+2022-08-29 21:31:22,561 (monthly_wage) INFO 1
+2022-08-29 21:31:22,561 (monthly_wage) DEBUG  daily wage of an employee 160
+2022-08-29 21:31:22,561 (monthly_wage) INFO 1
+2022-08-29 21:31:22,561 (monthly_wage) DEBUG  daily wage of an employee 160
+2022-08-29 21:31:22,561 (monthly_wage) INFO 1
+2022-08-29 21:31:22,561 (monthly_wage) DEBUG  daily wage of an employee 160
+2022-08-29 21:31:22,561 (monthly_wage) INFO 2
+2022-08-29 21:31:22,561 (monthly_wage) DEBUG  daily wage of an employee 80
+2022-08-29 21:31:22,561 (monthly_wage) INFO 2
+2022-08-29 21:31:22,561 (monthly_wage) DEBUG  daily wage of an employee 80
+2022-08-29 21:31:22,561 (monthly_wage) INFO 1
+2022-08-29 21:31:22,561 (monthly_wage) DEBUG  daily wage of an employee 160
+2022-08-29 21:31:22,562 (monthly_wage) INFO 0
+2022-08-29 21:31:22,562 (monthly_wage) DEBUG employee is absent
+2022-08-29 21:31:22,562 (monthly_wage) INFO 2
+2022-08-29 21:31:22,562 (monthly_wage) DEBUG  daily wage of an employee 80
+2022-08-29 21:31:22,562 (monthly_wage) DEBUG Employee wage for month: 1680
