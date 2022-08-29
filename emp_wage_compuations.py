@@ -8,7 +8,7 @@ class Employee:
 
     def calculate_emp_wage(self):
         """
-        in this function added checking maximum working days and hours of an employee.
+        in this function added class for checking maximum working days and hours of an employee.
         :return: None.
         """
         try:
