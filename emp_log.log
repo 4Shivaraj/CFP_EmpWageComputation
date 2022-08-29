@@ -1,3 +1,5 @@
 2022-08-29 17:38:29,421 (emp_attendance) DEBUG Employee is absent
 2022-08-29 21:08:15,146 (daily_wage) INFO 1
 2022-08-29 21:08:23,422 (daily_wage) DEBUG  daily wage of an employee 160
+2022-08-29 21:13:41,951 (part_time_wage) INFO 2
+2022-08-29 21:13:46,736 (part_time_wage) DEBUG  daily wage of an employee 80

@@ -1,19 +1,19 @@
 import random
 from emp_log import get_logger
 
-lg = get_logger("(daily_wage)", file_name="emp_log.log")
+lg = get_logger("(part_time_wage)", file_name="emp_log.log")
 
 
 class Employee:
 
     def calculate_emp_wage(self):
         """
-        this function will check the daily wage of an employee.
+        in this function added checking part-time wage of an employee.
         :return: None.
         """
         try:
             emp_wage_hour = 20
-            emp_check = random.randint(0, 1)
+            emp_check = random.randint(0, 2)
             lg.info(emp_check)
             emp_dict = {1: 8, 2: 4, 0: 0}
             working_hour = emp_dict.get(emp_check)
