@@ -1,18 +1,19 @@
 import random
 from emp_log import get_logger
 
-lg = get_logger("(class_method)", file_name="emp_log.log")
+lg = get_logger("(MultipleCompany)", file_name="emp_log.log")
 
 
 class Employee:
-    def __init__(self, emp_wage_hour, max_working_days, max_working_hours):
+    def __init__(self, company_name, emp_wage_hour, max_working_days, max_working_hours):
+        self.company_name = company_name
         self.emp_wage_hour = emp_wage_hour
         self.max_working_days = max_working_days
         self.max_working_hours = max_working_hours
 
     def calculate_emp_wage(self):
         """
-        in this function added class for checking maximum working days and hours of an employee.
+        This function used for checking employee wages for multiple company.
         :return: None.
         """
 
@@ -31,6 +32,7 @@ class Employee:
                 emp_wage_per_month += daily_wage
                 emp_working_hours += working_hour
                 emp_working_days += 1
+            lg.info("Name of the company: {}".format(self.company_name))
             lg.info("Days the employees have worked: {} ".format(emp_working_days))
             lg.debug("Employee wage for month: {}".format(emp_wage_per_month))
             lg.debug("Hours the employees have worked: {} ".format(emp_working_hours))
@@ -41,9 +43,9 @@ class Employee:
 
 
 if __name__ == '__main__':
-    emp_wage_hour = 20
-    max_working_days = 20
-    max_working_hours = 100
 
-    emp_wage_check = Employee(emp_wage_hour, max_working_days, max_working_hours)
-    emp_wage_check.calculate_emp_wage()
+    emp1_wage = Employee("FlipKart", 20, 20, 100)
+    emp1_wage.calculate_emp_wage()
+    emp2_wage = Employee("Amazon", 30, 19, 110)
+    emp2_wage.calculate_emp_wage()
+

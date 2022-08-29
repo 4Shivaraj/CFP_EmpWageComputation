@@ -131,3 +131,105 @@
 2022-08-29 22:05:30,547 (class_method) INFO Days the employees have worked: 20 
 2022-08-29 22:05:30,747 (class_method) DEBUG Employee wage for month: 1920
 2022-08-29 22:05:30,935 (class_method) DEBUG Hours the employees have worked: 96 
+2022-08-29 23:21:29,112 (MultipleCompany) INFO 2
+2022-08-29 23:21:32,233 (MultipleCompany) DEBUG  daily wage of an employee 80
+2022-08-29 23:21:35,187 (MultipleCompany) INFO 0
+2022-08-29 23:21:36,373 (MultipleCompany) DEBUG employee is absent
+2022-08-29 23:22:05,793 (MultipleCompany) INFO 2
+2022-08-29 23:22:07,329 (MultipleCompany) DEBUG  daily wage of an employee 80
+2022-08-29 23:22:08,186 (MultipleCompany) INFO 1
+2022-08-29 23:22:09,037 (MultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-29 23:22:10,036 (MultipleCompany) INFO 0
+2022-08-29 23:22:11,079 (MultipleCompany) DEBUG employee is absent
+2022-08-29 23:22:11,991 (MultipleCompany) INFO 1
+2022-08-29 23:22:12,551 (MultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-29 23:22:13,685 (MultipleCompany) INFO 1
+2022-08-29 23:22:14,293 (MultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-29 23:22:15,738 (MultipleCompany) INFO 1
+2022-08-29 23:22:16,729 (MultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-29 23:23:06,543 (MultipleCompany) INFO 0
+2022-08-29 23:23:07,522 (MultipleCompany) DEBUG employee is absent
+2022-08-29 23:23:09,367 (MultipleCompany) INFO 1
+2022-08-29 23:23:10,022 (MultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-29 23:23:11,202 (MultipleCompany) INFO 1
+2022-08-29 23:23:11,840 (MultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-29 23:23:13,993 (MultipleCompany) INFO 1
+2022-08-29 23:23:14,711 (MultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-29 23:23:16,060 (MultipleCompany) INFO 1
+2022-08-29 23:23:16,946 (MultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-29 23:23:17,910 (MultipleCompany) INFO 0
+2022-08-29 23:23:19,144 (MultipleCompany) DEBUG employee is absent
+2022-08-29 23:23:20,776 (MultipleCompany) INFO 2
+2022-08-29 23:23:21,597 (MultipleCompany) DEBUG  daily wage of an employee 80
+2022-08-29 23:23:22,987 (MultipleCompany) INFO 2
+2022-08-29 23:23:23,979 (MultipleCompany) DEBUG  daily wage of an employee 80
+2022-08-29 23:23:25,140 (MultipleCompany) INFO 1
+2022-08-29 23:23:26,398 (MultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-29 23:23:27,425 (MultipleCompany) INFO 2
+2022-08-29 23:23:28,060 (MultipleCompany) DEBUG  daily wage of an employee 80
+2022-08-29 23:23:29,037 (MultipleCompany) INFO 0
+2022-08-29 23:23:29,969 (MultipleCompany) DEBUG employee is absent
+2022-08-29 23:23:31,381 (MultipleCompany) INFO 0
+2022-08-29 23:23:33,232 (MultipleCompany) DEBUG employee is absent
+2022-08-29 23:23:34,289 (MultipleCompany) INFO 1
+2022-08-29 23:23:34,957 (MultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-29 23:23:36,030 (MultipleCompany) INFO 2
+2022-08-29 23:23:36,696 (MultipleCompany) DEBUG  daily wage of an employee 80
+2022-08-29 23:23:37,863 (MultipleCompany) INFO 2
+2022-08-29 23:23:38,531 (MultipleCompany) DEBUG  daily wage of an employee 80
+2022-08-29 23:23:39,805 (MultipleCompany) INFO 2
+2022-08-29 23:23:40,522 (MultipleCompany) DEBUG  daily wage of an employee 80
+2022-08-29 23:23:41,488 (MultipleCompany) INFO 2
+2022-08-29 23:23:42,331 (MultipleCompany) DEBUG  daily wage of an employee 80
+2022-08-29 23:23:43,326 (MultipleCompany) INFO 1
+2022-08-29 23:23:43,961 (MultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-29 23:23:45,015 (MultipleCompany) INFO 0
+2022-08-29 23:23:46,350 (MultipleCompany) DEBUG employee is absent
+2022-08-29 23:23:47,404 (MultipleCompany) INFO 1
+2022-08-29 23:23:48,083 (MultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-29 23:23:50,325 (MultipleCompany) INFO Name of the company: FlipKart
+2022-08-29 23:23:51,026 (MultipleCompany) INFO Days the employees have worked: 20 
+2022-08-29 23:23:51,459 (MultipleCompany) DEBUG Employee wage for month: 1840
+2022-08-29 23:23:52,826 (MultipleCompany) DEBUG Hours the employees have worked: 92 
+2022-08-29 23:23:57,918 (MultipleCompany) INFO 0
+2022-08-29 23:23:58,772 (MultipleCompany) DEBUG employee is absent
+2022-08-29 23:23:59,829 (MultipleCompany) INFO 2
+2022-08-29 23:24:00,670 (MultipleCompany) DEBUG  daily wage of an employee 120
+2022-08-29 23:24:01,660 (MultipleCompany) INFO 1
+2022-08-29 23:24:02,251 (MultipleCompany) DEBUG  daily wage of an employee 240
+2022-08-29 23:24:03,881 (MultipleCompany) INFO 1
+2022-08-29 23:24:04,516 (MultipleCompany) DEBUG  daily wage of an employee 240
+2022-08-29 23:24:05,818 (MultipleCompany) INFO 2
+2022-08-29 23:24:06,500 (MultipleCompany) DEBUG  daily wage of an employee 120
+2022-08-29 23:24:07,708 (MultipleCompany) INFO 1
+2022-08-29 23:24:08,359 (MultipleCompany) DEBUG  daily wage of an employee 240
+2022-08-29 23:24:09,506 (MultipleCompany) INFO 1
+2022-08-29 23:24:10,175 (MultipleCompany) DEBUG  daily wage of an employee 240
+2022-08-29 23:24:11,196 (MultipleCompany) INFO 2
+2022-08-29 23:24:11,847 (MultipleCompany) DEBUG  daily wage of an employee 120
+2022-08-29 23:24:12,821 (MultipleCompany) INFO 0
+2022-08-29 23:24:13,812 (MultipleCompany) DEBUG employee is absent
+2022-08-29 23:24:14,854 (MultipleCompany) INFO 1
+2022-08-29 23:24:15,552 (MultipleCompany) DEBUG  daily wage of an employee 240
+2022-08-29 23:24:16,722 (MultipleCompany) INFO 0
+2022-08-29 23:24:17,867 (MultipleCompany) DEBUG employee is absent
+2022-08-29 23:24:18,888 (MultipleCompany) INFO 1
+2022-08-29 23:24:19,561 (MultipleCompany) DEBUG  daily wage of an employee 240
+2022-08-29 23:24:20,571 (MultipleCompany) INFO 1
+2022-08-29 23:24:21,237 (MultipleCompany) DEBUG  daily wage of an employee 240
+2022-08-29 23:24:22,497 (MultipleCompany) INFO 2
+2022-08-29 23:24:23,240 (MultipleCompany) DEBUG  daily wage of an employee 120
+2022-08-29 23:24:24,478 (MultipleCompany) INFO 0
+2022-08-29 23:24:25,643 (MultipleCompany) DEBUG employee is absent
+2022-08-29 23:24:26,679 (MultipleCompany) INFO 1
+2022-08-29 23:24:27,380 (MultipleCompany) DEBUG  daily wage of an employee 240
+2022-08-29 23:24:28,408 (MultipleCompany) INFO 2
+2022-08-29 23:24:29,028 (MultipleCompany) DEBUG  daily wage of an employee 120
+2022-08-29 23:24:30,069 (MultipleCompany) INFO 0
+2022-08-29 23:24:31,036 (MultipleCompany) DEBUG employee is absent
+2022-08-29 23:24:32,030 (MultipleCompany) INFO 2
+2022-08-29 23:24:32,711 (MultipleCompany) DEBUG  daily wage of an employee 120
+2022-08-29 23:24:33,594 (MultipleCompany) INFO Name of the company: Amazon
+2022-08-29 23:24:33,765 (MultipleCompany) INFO Days the employees have worked: 19 
+2022-08-29 23:24:33,921 (MultipleCompany) DEBUG Employee wage for month: 2640
+2022-08-29 23:24:34,076 (MultipleCompany) DEBUG Hours the employees have worked: 88 
