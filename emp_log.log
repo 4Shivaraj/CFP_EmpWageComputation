@@ -232,4 +232,182 @@
 2022-08-29 23:24:33,594 (MultipleCompany) INFO Name of the company: Amazon
 2022-08-29 23:24:33,765 (MultipleCompany) INFO Days the employees have worked: 19 
 2022-08-29 23:24:33,921 (MultipleCompany) DEBUG Employee wage for month: 2640
-2022-08-29 23:24:34,076 (MultipleCompany) DEBUG Hours the employees have worked: 88 
+2022-08-29 23:24:34,076 (MultipleCompany) DEBUG Hours the employees have worked: 88
+2022-08-30 14:21:47,613 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,613 (WageForMultipleCompany) DEBUG  daily wage of an employee 240
+2022-08-30 14:21:47,613 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,613 (WageForMultipleCompany) DEBUG  daily wage of an employee 240
+2022-08-30 14:21:47,613 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,614 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,614 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,614 (WageForMultipleCompany) DEBUG  daily wage of an employee 120
+2022-08-30 14:21:47,614 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,614 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,614 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,614 (WageForMultipleCompany) DEBUG  daily wage of an employee 240
+2022-08-30 14:21:47,614 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,614 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,614 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,614 (WageForMultipleCompany) DEBUG  daily wage of an employee 120
+2022-08-30 14:21:47,614 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,614 (WageForMultipleCompany) DEBUG  daily wage of an employee 240
+2022-08-30 14:21:47,615 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,615 (WageForMultipleCompany) DEBUG  daily wage of an employee 120
+2022-08-30 14:21:47,615 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,615 (WageForMultipleCompany) DEBUG  daily wage of an employee 240
+2022-08-30 14:21:47,615 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,615 (WageForMultipleCompany) DEBUG  daily wage of an employee 120
+2022-08-30 14:21:47,615 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,615 (WageForMultipleCompany) DEBUG  daily wage of an employee 120
+2022-08-30 14:21:47,615 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,615 (WageForMultipleCompany) DEBUG  daily wage of an employee 120
+2022-08-30 14:21:47,615 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,616 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,616 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,616 (WageForMultipleCompany) DEBUG  daily wage of an employee 240
+2022-08-30 14:21:47,616 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,616 (WageForMultipleCompany) DEBUG  daily wage of an employee 120
+2022-08-30 14:21:47,616 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,616 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,616 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,616 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,616 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,616 (WageForMultipleCompany) DEBUG  daily wage of an employee 240
+2022-08-30 14:21:47,616 (WageForMultipleCompany) INFO salary_data: {'Shivaraj': 2520}
+2022-08-30 14:21:47,617 (WageForMultipleCompany) INFO Name of the company: FlipKart
+2022-08-30 14:21:47,617 (WageForMultipleCompany) INFO Days the employees have worked: 20 
+2022-08-30 14:21:47,617 (WageForMultipleCompany) DEBUG Employee wage for month: 2520
+2022-08-30 14:21:47,617 (WageForMultipleCompany) DEBUG Hours the employees have worked: 84 
+2022-08-30 14:21:47,617 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,617 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,617 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,617 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,617 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,618 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,618 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,618 (WageForMultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-30 14:21:47,618 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,619 (WageForMultipleCompany) DEBUG  daily wage of an employee 80
+2022-08-30 14:21:47,619 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,619 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,619 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,619 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,619 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,619 (WageForMultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-30 14:21:47,619 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,619 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,619 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,619 (WageForMultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-30 14:21:47,619 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,620 (WageForMultipleCompany) DEBUG  daily wage of an employee 80
+2022-08-30 14:21:47,620 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,620 (WageForMultipleCompany) DEBUG  daily wage of an employee 80
+2022-08-30 14:21:47,620 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,620 (WageForMultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-30 14:21:47,620 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,620 (WageForMultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-30 14:21:47,620 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,620 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,620 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,620 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,620 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,620 (WageForMultipleCompany) DEBUG  daily wage of an employee 80
+2022-08-30 14:21:47,620 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,620 (WageForMultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-30 14:21:47,620 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,620 (WageForMultipleCompany) DEBUG  daily wage of an employee 80
+2022-08-30 14:21:47,620 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,620 (WageForMultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-30 14:21:47,621 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,621 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,621 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,621 (WageForMultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-30 14:21:47,621 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,621 (WageForMultipleCompany) DEBUG  daily wage of an employee 160
+2022-08-30 14:21:47,621 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,621 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,621 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,621 (WageForMultipleCompany) DEBUG  daily wage of an employee 80
+2022-08-30 14:21:47,621 (WageForMultipleCompany) INFO salary_data: {'Cheluvesh': 1920}
+2022-08-30 14:21:47,621 (WageForMultipleCompany) INFO Name of the company: FlipKart
+2022-08-30 14:21:47,621 (WageForMultipleCompany) INFO Days the employees have worked: 25 
+2022-08-30 14:21:47,621 (WageForMultipleCompany) DEBUG Employee wage for month: 1920
+2022-08-30 14:21:47,621 (WageForMultipleCompany) DEBUG Hours the employees have worked: 96 
+2022-08-30 14:21:47,621 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,621 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,621 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,621 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,621 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,621 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,622 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,622 (WageForMultipleCompany) DEBUG  daily wage of an employee 112
+2022-08-30 14:21:47,622 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,622 (WageForMultipleCompany) DEBUG  daily wage of an employee 112
+2022-08-30 14:21:47,622 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,622 (WageForMultipleCompany) DEBUG  daily wage of an employee 224
+2022-08-30 14:21:47,622 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,622 (WageForMultipleCompany) DEBUG  daily wage of an employee 224
+2022-08-30 14:21:47,622 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,622 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,622 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,622 (WageForMultipleCompany) DEBUG  daily wage of an employee 224
+2022-08-30 14:21:47,622 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,622 (WageForMultipleCompany) DEBUG  daily wage of an employee 224
+2022-08-30 14:21:47,622 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,622 (WageForMultipleCompany) DEBUG  daily wage of an employee 224
+2022-08-30 14:21:47,622 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,622 (WageForMultipleCompany) DEBUG  daily wage of an employee 224
+2022-08-30 14:21:47,622 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,622 (WageForMultipleCompany) DEBUG  daily wage of an employee 112
+2022-08-30 14:21:47,623 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,623 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,623 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,623 (WageForMultipleCompany) DEBUG  daily wage of an employee 112
+2022-08-30 14:21:47,623 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,623 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,623 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,623 (WageForMultipleCompany) DEBUG  daily wage of an employee 224
+2022-08-30 14:21:47,623 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,623 (WageForMultipleCompany) DEBUG  daily wage of an employee 112
+2022-08-30 14:21:47,623 (WageForMultipleCompany) INFO salary_data: {'gayathri': 2128}
+2022-08-30 14:21:47,623 (WageForMultipleCompany) INFO Name of the company: Amazon
+2022-08-30 14:21:47,623 (WageForMultipleCompany) INFO Days the employees have worked: 18 
+2022-08-30 14:21:47,623 (WageForMultipleCompany) DEBUG Employee wage for month: 2128
+2022-08-30 14:21:47,623 (WageForMultipleCompany) DEBUG Hours the employees have worked: 76 
+2022-08-30 14:21:47,623 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,623 (WageForMultipleCompany) DEBUG  daily wage of an employee 140
+2022-08-30 14:21:47,623 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,623 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,623 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,623 (WageForMultipleCompany) DEBUG  daily wage of an employee 140
+2022-08-30 14:21:47,624 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,624 (WageForMultipleCompany) DEBUG  daily wage of an employee 140
+2022-08-30 14:21:47,624 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,624 (WageForMultipleCompany) DEBUG  daily wage of an employee 140
+2022-08-30 14:21:47,624 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,624 (WageForMultipleCompany) DEBUG  daily wage of an employee 280
+2022-08-30 14:21:47,624 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,624 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,624 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,624 (WageForMultipleCompany) DEBUG  daily wage of an employee 280
+2022-08-30 14:21:47,624 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,624 (WageForMultipleCompany) DEBUG  daily wage of an employee 140
+2022-08-30 14:21:47,624 (WageForMultipleCompany) INFO 0
+2022-08-30 14:21:47,624 (WageForMultipleCompany) DEBUG employee is absent
+2022-08-30 14:21:47,624 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,624 (WageForMultipleCompany) DEBUG  daily wage of an employee 280
+2022-08-30 14:21:47,624 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,624 (WageForMultipleCompany) DEBUG  daily wage of an employee 280
+2022-08-30 14:21:47,624 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,624 (WageForMultipleCompany) DEBUG  daily wage of an employee 280
+2022-08-30 14:21:47,625 (WageForMultipleCompany) INFO 1
+2022-08-30 14:21:47,625 (WageForMultipleCompany) DEBUG  daily wage of an employee 280
+2022-08-30 14:21:47,625 (WageForMultipleCompany) INFO 2
+2022-08-30 14:21:47,625 (WageForMultipleCompany) DEBUG  daily wage of an employee 140
+2022-08-30 14:21:47,625 (WageForMultipleCompany) INFO salary_data: {'raksha': 2520}
+2022-08-30 14:21:47,625 (WageForMultipleCompany) INFO Name of the company: Amazon
+2022-08-30 14:21:47,625 (WageForMultipleCompany) INFO Days the employees have worked: 15 
+2022-08-30 14:21:47,625 (WageForMultipleCompany) DEBUG Employee wage for month: 2520
+2022-08-30 14:21:47,625 (WageForMultipleCompany) DEBUG Hours the employees have worked: 72 
+2022-08-30 14:21:47,625 (WageForMultipleCompany) DEBUG {'FlipKart': {'Shivaraj': 2520, 'Cheluvesh': 1920}}
+2022-08-30 14:21:47,625 (WageForMultipleCompany) DEBUG {'amazon': {'gayathri': 2128, 'raksha': 2520}}
