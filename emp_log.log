@@ -234,9 +234,14 @@
 2022-08-29 23:24:33,921 (MultipleCompany) DEBUG Employee wage for month: 2640
 2022-08-29 23:24:34,076 (MultipleCompany) DEBUG Hours the employees have worked: 88
 
-
-2022-09-01 14:07:50,263 (CrudOperations) INFO shiva
-2022-09-01 14:07:50,263 (CrudOperations) INFO ('employee name : shiva, employee wage per hour: 20,maximum working days: 20, maximum working hours: 100', 'department name: developer,phone number: 8618199771 ')
-2022-09-01 14:08:35,955 (CrudOperations) INFO shiva
-2022-09-01 14:08:35,955 (CrudOperations) INFO ('employee name : shiva, employee wage per hour: 21,maximum working days: 25, maximum working hours: 100', 'department name: web developer,phone number: 861819776 ')
-2022-09-01 14:08:45,097 (CrudOperations) DEBUG Employee deleted successfully
+2022-09-02 17:13:49,645 (CrudOperations_MultipleCompany) INFO tata
+2022-09-02 17:13:49,645 (CrudOperations_MultipleCompany) DEBUG add_company {'tata': <__main__.Company object at 0x00000276ACE60E50>}
+2022-09-02 17:14:15,055 (CrudOperations_MultipleCompany) DEBUG <__main__.Company object at 0x00000276ACE60E50>
+2022-09-02 17:14:49,201 (CrudOperations_MultipleCompany) DEBUG <__main__.Company object at 0x00000276ACE60940>
+2022-09-02 17:15:01,159 (CrudOperations_MultipleCompany) DEBUG <__main__.Company object at 0x00000276ACE60940>
+2022-09-02 17:15:11,187 (CrudOperations_MultipleCompany) INFO shivaraj
+2022-09-02 17:15:11,187 (CrudOperations_MultipleCompany) INFO ('employee name : shivaraj, employee wage per hour: 20,maximum working days: 20, maximum working hours: 100', 'department name: web,phone number: 8765423456 ')
+2022-09-02 17:15:46,453 (CrudOperations_MultipleCompany) DEBUG Updated successfully
+2022-09-02 17:15:46,453 (CrudOperations_MultipleCompany) INFO <__main__.Company object at 0x00000276ACE60E50>
+2022-09-02 17:15:52,768 (CrudOperations_MultipleCompany) INFO shivaraj
+2022-09-02 17:15:52,768 (CrudOperations_MultipleCompany) INFO ('employee name : shivaraj, employee wage per hour: 26,maximum working days: 15, maximum working hours: 190', 'department name: web developer,phone number: 9876456787 ')

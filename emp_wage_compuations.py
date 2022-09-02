@@ -1,7 +1,7 @@
 import random
 from emp_log import get_logger
 
-lg = get_logger("(CrudOperations)", file_name="emp_log.log")
+lg = get_logger("(CrudOperations_MultipleCompany)", file_name="emp_log.log")
 
 
 class Employee:
@@ -81,7 +81,7 @@ class Company:
                 lg.debug("Employee is not available")
                 return
 
-            employee.wage_per_hour = wage_per_hour
+            employee.emp_wage_hour = wage_per_hour
             employee.max_working_days = max_working_days
             employee.max_working_hours = max_working_hours
             employee.department = department
@@ -131,67 +131,325 @@ class Company:
 
 
 if __name__ == '__main__':
-    company_name = input("Enter the company name:\n")
-    company = Company(company_name)
+    company_dict = {}
 
 
-    def add_():
+    def add_company_func():
+        """
+        Helper function to add a company
+        :return: company dictionary
+        """
         try:
+            company_name = input("Enter the company name:\n")
+            lg.info(company_name)
+            company_object = Company(company_name)
+            company_dict.update({company_object.comp_name: company_object})
+            lg.debug("add_company {}".format(company_dict))
+            return company_dict
+        except Exception as e:
+            lg.error(e)
+
+
+    def display_company_func():
+        """
+        Helper function to display the company
+        """
+        try:
+            for index, company_name in enumerate(company_dict.keys()):
+                print(index, company_name)
+        except Exception as e:
+            lg.error(e)
+
+
+    def add_employee_func():
+        """
+        Helper function to add the employee
+        :return:
+        """
+        try:
+            company_name = input("Enter the company name:\n")
+            company_exist = company_dict.get(company_name)
+            if company_exist is None:
+                company_exist = Company(company_name)
+                company_dict.update({company_exist.comp_name: company_exist})
             emp_name = input("enter your name:\n")
             wage_per_hour = int(input("enter the wage per hour:\n"))
             max_working_days = int(input("enter the maximum working days:\n"))
             max_working_hours = int(input("enter the maximum working hours:\n"))
             department = input("enter the department name:\n")
             phone_number = int(input("enter the phone number:\n"))
-            emp_obj = Employee(emp_name, wage_per_hour, max_working_days, max_working_hours,
-                               department, phone_number)
-            company.add_employee(emp_obj)
+            emp_object = Employee(emp_name, wage_per_hour, max_working_days, max_working_hours, department,
+                                  phone_number)
+            company_exist.add_employee(emp_object)
+            lg.debug(company_exist)
         except Exception as e:
             lg.error(e)
 
 
-    def display_():
+    def get_employee_func():
+        """
+        Helper function to get an employee
+        :return: None
+        """
         try:
-            company.display_employee()
+            company_name = input("Enter the company name:\n")
+            company_exist = company_dict.get(company_name)
+            if company_exist is None:
+                lg.debug("Company doesn't exist")
+                return
+            emp_name = input("enter employee name:\n")
+            company_exist.get_employee(emp_name)
+            lg.debug(company_exist)
         except Exception as e:
             lg.error(e)
 
 
-    def update_():
+    def update_employee_func():
+        """
+        Helper function to update an employee
+        :return: None
+        """
         try:
-            key = input("Enter the name of employee to check exits or not:\n")
-            if company.get_employee(key):
-                wage_per_hour = int(input("enter the wage per hour:\n"))
-                max_working_days = int(input("enter the maximum working days\n"))
-                max_working_hours = int(input("enter the maximum working hours\n"))
-                department = input("enter the department name\n")
-                phone_number = int(input("enter the phone number\n"))
-                emp = Employee(emp_name=key, emp_wage_hour=wage_per_hour, max_working_days=max_working_days,
-                               max_working_hours=max_working_hours, department=department, phone_number=phone_number)
-                company.add_employee(emp)
+            company_name = input("Enter the company name:\n")
+            company_object = company_dict.get(company_name)
+            if company_object is None:
+                lg.info("Company not found")
+                return
+            name = input("enter the employee name:\n")
+            employee_object = company_object.get_employee(name)
+            if employee_object is None:
+                lg.debug("Employee not found")
+                return
+            wage_per_hour = int(input("enter the wage per hour:\n"))
+            max_working_days = int(input("enter the maximum working days:\n"))
+            max_working_hours = int(input("enter the maximum working hours:\n"))
+            department = input("enter the department name:\n")
+            phone_number = int(input("enter the phone number:\n"))
+            company_object.update_employee(name, wage_per_hour, max_working_days, max_working_hours, department,
+                                           phone_number)
+            lg.info(company_object)
 
         except Exception as e:
             lg.error(e)
 
 
-    def delete_():
+    def delete_employee_func():
+        """
+        Helper function to delete an employee
+        :return: None
+        """
         try:
-            key = input("Enter the name of employee to check exits or not:\n")
-            company.delete_employee(key)
+            company_name = input("Enter the company name:\n")
+            company_exist = company_dict.get(company_name)
+            if company_exist is None:
+                lg.debug("Company doesn't exist")
+                return
+            emp_name = input("enter employee name:\n")
+            company_exist.delete_employee(emp_name)
+            lg.info(company_exist)
         except Exception as e:
-            print(e)
+            lg.error(e)
+
+
+    def display_employee_func():
+        """
+        Helper function to display employee
+        :return: None
+        """
+        try:
+            company_name = input("Enter the company name:\n")
+            company_object = company_dict.get(company_name)
+            if company_object is None:
+                print("Company doesn't exist")
+                return
+            company_object.display_employee()
+        except Exception as e:
+            lg.error(e)
+
 
     def default():
         print("Invalid! Enter the correct choice")
 
 
-    choice_dict = {1: add_, 2: display_, 3: update_, 4: delete_}
+    choice_dict = {1: add_company_func, 2: display_company_func, 3: add_employee_func, 4: get_employee_func,
+                   5: delete_employee_func,
+                   6: display_employee_func, 7: update_employee_func}
 
     while True:
-        print("Enter the choice : \n1)Add contact \n2)Display contact\n3)update contact\n4)delete "
-              "contact")
+        print("Enter the choice : \n1.add_company\n2.Display Company\n3.Add Employee \n4.Get Employee\n5.Delete "
+              "Employee\n6.display_employees\n7.update_employees\n0.Exit")
         choice = int(input())
         if choice in choice_dict.keys():
             choice_dict.get(choice)()
         else:
             default()
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+Enter the choice : 
+1.add_company
+2.Display Company
+3.Add Employee 
+4.Get Employee
+5.Delete Employee
+6.display_employees
+7.update_employees
+0.Exit
+1
+Enter the company name:
+tata
+Enter the choice : 
+1.add_company
+2.Display Company
+3.Add Employee 
+4.Get Employee
+5.Delete Employee
+6.display_employees
+7.update_employees
+0.Exit
+(CrudOperations_MultipleCompany) - 2022-09-02 17:13:49,645 - INFO - tata
+(CrudOperations_MultipleCompany) - 2022-09-02 17:13:49,645 - DEBUG - add_company {'tata': <__main__.Company object at 0x00000276ACE60E50>}
+2
+0 tata
+Enter the choice : 
+1.add_company
+2.Display Company
+3.Add Employee 
+4.Get Employee
+5.Delete Employee
+6.display_employees
+7.update_employees
+0.Exit
+3
+Enter the company name:
+tata
+enter your name:
+shivaraj
+enter the wage per hour:
+20
+enter the maximum working days:
+20
+enter the maximum working hours:
+100
+enter the department name:
+web
+enter the phone number:
+8765423456
+(CrudOperations_MultipleCompany) - 2022-09-02 17:14:15,055 - DEBUG - <__main__.Company object at 0x00000276ACE60E50>
+Enter the choice : 
+1.add_company
+2.Display Company
+3.Add Employee 
+4.Get Employee
+5.Delete Employee
+6.display_employees
+7.update_employees
+0.Exit
+3
+Enter the company name:
+flipkart
+enter your name:
+mahesh
+enter the wage per hour:
+23
+enter the maximum working days:
+25
+enter the maximum working hours:
+105
+enter the department name:
+design
+enter the phone number:
+98765323456
+Enter the choice : 
+1.add_company
+2.Display Company
+3.Add Employee 
+4.Get Employee
+5.Delete Employee
+6.display_employees
+7.update_employees
+0.Exit
+(CrudOperations_MultipleCompany) - 2022-09-02 17:14:49,201 - DEBUG - <__main__.Company object at 0x00000276ACE60940>
+4
+Enter the company name:
+flipkart
+enter employee name:
+mahesh
+Enter the choice : 
+1.add_company
+2.Display Company
+3.Add Employee 
+4.Get Employee
+5.Delete Employee
+6.display_employees
+7.update_employees
+0.Exit
+(CrudOperations_MultipleCompany) - 2022-09-02 17:15:01,159 - DEBUG - <__main__.Company object at 0x00000276ACE60940>
+6
+Enter the company name:
+tata
+shivaraj ('employee name : shivaraj, employee wage per hour: 20,maximum working days: 20, maximum working hours: 100', 'department name: web,phone number: 8765423456 ')
+Enter the choice : 
+1.add_company
+2.Display Company
+3.Add Employee 
+4.Get Employee
+5.Delete Employee
+6.display_employees
+7.update_employees
+0.Exit
+(CrudOperations_MultipleCompany) - 2022-09-02 17:15:11,187 - INFO - shivaraj
+(CrudOperations_MultipleCompany) - 2022-09-02 17:15:11,187 - INFO - ('employee name : shivaraj, employee wage per hour: 20,maximum working days: 20, maximum working hours: 100', 'department name: web,phone number: 8765423456 ')
+7
+Enter the company name:
+tata
+enter the employee name:
+shivaraj
+enter the wage per hour:
+26
+enter the maximum working days:
+15
+enter the maximum working hours:
+190
+enter the department name:
+web developer
+enter the phone number:
+9876456787
+Enter the choice : 
+1.add_company
+2.Display Company
+3.Add Employee 
+4.Get Employee
+5.Delete Employee
+6.display_employees
+7.update_employees
+0.Exit
+(CrudOperations_MultipleCompany) - 2022-09-02 17:15:46,453 - DEBUG - Updated successfully
+(CrudOperations_MultipleCompany) - 2022-09-02 17:15:46,453 - INFO - <__main__.Company object at 0x00000276ACE60E50>
+6
+Enter the company name:
+tata
+shivaraj ('employee name : shivaraj, employee wage per hour: 26,maximum working days: 15, maximum working hours: 190', 'department name: web developer,phone number: 9876456787 ')
+Enter the choice : 
+1.add_company
+2.Display Company
+3.Add Employee 
+4.Get Employee
+5.Delete Employee
+6.display_employees
+7.update_employees
+0.Exit
+(CrudOperations_MultipleCompany) - 2022-09-02 17:15:52,768 - INFO - shivaraj
+(CrudOperations_MultipleCompany) - 2022-09-02 17:15:52,768 - INFO - ('employee name : shivaraj, employee wage per hour: 26,maximum working days: 15, maximum working hours: 190', 'department name: web developer,phone number: 9876456787 ')
+
+"""
