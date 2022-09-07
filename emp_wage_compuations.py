@@ -1,4 +1,5 @@
 import random
+import json
 from emp_log import get_logger
 
 lg = get_logger("(CrudOperations_MultipleCompany)", file_name="emp_log.log")
@@ -38,10 +39,12 @@ class Employee:
             lg.info("Days the employees have worked: {} ".format(emp_working_days))
             lg.debug("Employee wage for month: {}".format(emp_wage_per_month))
             lg.debug("Hours the employees have worked: {} ".format(emp_working_hours))
-            return
+            return emp_wage_per_month
 
         except Exception as e:
             lg.error(e)
+
+
 
     def details(self):
         return f'employee name : {self.emp_name}, employee wage per hour: {self.emp_wage_hour},' \
@@ -53,6 +56,9 @@ class Company:
     def __init__(self, comp_name):
         self.comp_name = comp_name
         self.employee_dict = {}
+
+    def __len__(self):
+        return len(self.employee_dict)
 
     def add_employee(self, emp_obj):
         """
@@ -110,6 +116,7 @@ class Company:
                 lg.info(key)
                 lg.info(value.details())
                 print(key, value.details())
+                return key, value.details()
         except Exception as e:
             lg.error(e)
 
